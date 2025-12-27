@@ -50,7 +50,7 @@ const healthLabel = (score) => {
     return { label: "Dead Stock", color: "text-red-600" };
 };
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://assignment-1-backend-42ph.onrender.com/api";
 
 export default function InventoryTimelineDashboard() {
     const [inventory, setInventory] = useState([]);
