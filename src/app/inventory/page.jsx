@@ -1,5 +1,5 @@
 import InventoryTimelineDashboard from "@/components/InventoryTimelineDashboard";
 
-export default function Home() {
+export default function InventoryPage() {
     return <InventoryTimelineDashboard />;
 }
